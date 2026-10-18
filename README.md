@@ -1,17 +1,46 @@
-# yushen-skills
+<h1 align="center">yushen-skills</h1>
 
-按 YuShen 的工作习惯整理的多领域 skill 集合：复用已有能力，让用户沿最短路径完成完整目标，以真实证据交付。
+<p align="center">
+  YuShen 的 5 个 AI 助手技能<br>
+  <strong>先复用 · 少绕路 · 用证据交付</strong>
+</p>
 
-| Skill | 用途 |
+<p align="center">
+  <a href="#选择技能">选择技能</a> ·
+  <a href="#快速开始">快速开始</a> ·
+  <a href="#许可与来源">许可与来源</a>
+</p>
+
+从需求到开发、审查与交付，把工作方法写成可按需读取的 `SKILL.md`，帮助助手围绕完整目标协作。
+
+## 选择技能
+
+| 你要做什么 | 使用技能 |
 | --- | --- |
-| [yushen-code-quality-review](skills/yushen-code-quality-review/SKILL.md) | CR：检查功能证据、死代码、重复实现和可复用方案；外部替代方案只提建议。 |
-| [yushen-security-review](skills/yushen-security-review/SKILL.md) | 独立检查权限、资源隔离、不可信输入、数据与恢复边界。 |
-| [yushen-pr-cycle](skills/yushen-pr-cycle/SKILL.md) | 从需求确认到并行开发、自证、最多三轮审查、组合验证和本人验收。 |
-| [yushen-product-ux](skills/yushen-product-ux/SKILL.md) | 缩短首次使用到日常操作的完整目标路径；高复用、统一入口和样式、相邻操作、稳定布局与合理默认值。 |
-| [yushen-release-acceptance](skills/yushen-release-acceptance/SKILL.md) | 从真实下载、安装、启动到核心目标验收最终产物，明确平台差异、测试层级与预览限制。 |
+| 死代码、重复实现与复用 | [代码审查](skills/yushen-code-quality-review/SKILL.md) |
+| 权限、隔离、数据与恢复 | [安全审查](skills/yushen-security-review/SKILL.md) |
+| 开发、自证、审查与验收 | [开发协作](skills/yushen-pr-cycle/SKILL.md) |
+| 安装、授权与日常操作 | [产品交互](skills/yushen-product-ux/SKILL.md) |
+| 真实下载、安装与产物验收 | [产物验收](skills/yushen-release-acceptance/SKILL.md) |
 
-将需要的 skill 目录放到工具支持的技能目录（例如项目的 `.agents/skills/`），保留其 `references/`。不支持自动发现时，明确要求助手读取对应 `SKILL.md`；仅放置文件或写一个链接不等于已加载。无需一次加载全部技能。
+## 快速开始
 
-复制或分发时一并携带本仓库的 `LICENSE` 和 `THIRD_PARTY_NOTICES.txt`。技能仅约定流程，不授予工具、费用、合并或部署权限。
+1. [下载本仓库](https://github.com/YuShenLiu06/yushen-skills/archive/refs/heads/main.zip)，将需要的技能**整个目录**放入工具支持的技能目录，例如项目的 `.agents/skills/`；保留其中的 `references/`。
+2. 在任务中明确要求助手读取对应文件，例如：
 
-自有内容采用 [MIT](LICENSE)。外部借鉴、实际源文件和整理边界见 [致谢](ACKNOWLEDGEMENTS.md)，第三方完整版权与许可见 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。不将通用学习技能或第三方方法宣称为 YuShen 原创。
+   ```text
+   请读取 .agents/skills/yushen-code-quality-review/SKILL.md，
+   审查这次 PR 的代码质量与复用机会。
+   ```
+
+无需一次加载全部技能。仅放置文件或写一个链接不等于已加载。
+
+## 使用边界
+
+技能约定工作流程，不授予工具、费用、推送、合并或部署权限。外部替代方案只作建议，是否采纳由用户决定。
+
+## 许可与来源
+
+自有内容采用 [MIT](LICENSE)。复制或分发时，请一并携带 `LICENSE` 和 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。
+
+实际来源、外部借鉴与整理边界见 [致谢](ACKNOWLEDGEMENTS.md)；不将通用学习技能或第三方方法宣称为 YuShen 原创。
