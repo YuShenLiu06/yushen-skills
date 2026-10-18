@@ -49,3 +49,17 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+Additional user-supplied skill bundles (2026-10-18)
+
+doc-refine.zip, latex-pdf.zip, and lark-editable-flowchart-v2.zip were supplied
+by the user and explicitly authorized for adaptation and distribution under
+MIT. The 11 meaningful source files contained no separate license file or
+file-level copyright header. No additional original author is inferred.
+The flowchart skill is distributed here as editable-flowchart; the original
+Lark-specific instructions are retained in an optional publishing reference.
+
+External writing methods, articles, LaTeX tools, and their manuals are
+references only and retain their own copyrights and licenses. The root MIT
+license does not relicense those external works. See ACKNOWLEDGEMENTS.md for
+the source bundles, adaptation boundaries, and reference links.
