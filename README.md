@@ -1,19 +1,21 @@
 <h1 align="center">yushen-skills</h1>
 
 <p align="center">
-  YuShen 的 5 个 AI 助手技能<br>
-  <strong>先复用 · 少绕路 · 用证据交付</strong>
+  YuShen 的个人技能收藏与实践集合<br>
+  <strong>跨领域收藏 · 持续实践 · 逐步扩展</strong>
 </p>
 
 <p align="center">
-  <a href="#选择技能">选择技能</a> ·
+  <a href="#当前收录">当前收录</a> ·
   <a href="#快速开始">快速开始</a> ·
   <a href="#许可与来源">许可与来源</a>
 </p>
 
-从需求到开发、审查与交付，把工作方法写成可按需读取的 `SKILL.md`，帮助助手围绕完整目标协作。
+这里收集我觉得好用的 AI 助手技能与工作方法，不限领域，持续扩展。可以是自己的实践、适配整理，也可以是注明来源与许可的第三方技能。
 
-## 选择技能
+## 当前收录
+
+首批从开发、设计、审查与交付相关技能开始：
 
 | 你要做什么 | 使用技能 |
 | --- | --- |
@@ -41,6 +43,8 @@
 
 ## 许可与来源
 
-自有内容采用 [MIT](LICENSE)。复制或分发时，请一并携带 `LICENSE` 和 [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt)。
+自有整理内容采用 [MIT](LICENSE)；第三方内容遵循各自实际许可证，不因收录而改标 MIT。
 
-实际来源、外部借鉴与整理边界见 [致谢](ACKNOWLEDGEMENTS.md)；不将通用学习技能或第三方方法宣称为 YuShen 原创。
+[致谢](ACKNOWLEDGEMENTS.md)记录实际来源、外部借鉴与整理边界，[第三方声明](THIRD_PARTY_NOTICES.txt)保留对应版权与许可。不将通用学习技能或第三方方法宣称为 YuShen 原创。
+
+复制或分发本集合时，请一并携带 `LICENSE` 和 `THIRD_PARTY_NOTICES.txt`，并遵守所用内容的适用许可。
