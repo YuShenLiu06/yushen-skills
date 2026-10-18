@@ -50,3 +50,19 @@
 - 私有项目代码、凭据、部署地址、未授权个人信息、内部助手系统指令和隐藏笔记均不属于本集合。
 
 源文件与许可核验日期：2026-10-18。根 [LICENSE](LICENSE) 仅覆盖本集合自有内容；复制或分发技能时应同时携带完整的许可与第三方声明。
+
+## 2026-10-18：文档与流程图技能
+
+用户提供以下三个 ZIP，并明确本批仍按 MIT 公开。实际解包共 11 个文件，未附独立 LICENSE 或必须保留的文件级版权头；不依据文件名推断作者或许可。保留原件的有用检查表、模板、脚本与评估数据，排除 `__MACOSX` 和资源分叉；未收集其他技能。
+
+| 本集合 | 用户提供的原件 | 本次适配 |
+| --- | --- | --- |
+| `doc-refine` | `doc-refine.zip`（2 文件） | 区分审阅与授权改写；保护行为契约、警告、无障碍、有效示例及链接；句长、被动语态等仅作建议；移除不存在的必需技能依赖。 |
+| `latex-pdf` | `latex-pdf.zip`（7 文件） | 收窄到明确的 LaTeX 排版需要；先审阅再按需检测环境；安装按实际授权；不可信输入隔离、默认禁 shell-escape；区分日志、编译与实际页面检查。 |
+| `editable-flowchart` | `lark-editable-flowchart-v2.zip`（2 文件） | 从 `lark-editable-flowchart` 改名；默认本地可编辑 SVG，尊重指定格式；原有飞书命令、发布验证与平台样式合并至按需读取的 `references/lark-publishing.md`。 |
+
+原件中的方法背景包括 Strunk & White、Google/Microsoft 写作指南、Diátaxis、Tufte、Write the Docs、John Carroll、Mark Baker，以及句长、记忆与认知负荷方面的经验。它们仅是参考线索，不宣称文章、书籍或通用方法归 YuShen 原创或均采用 MIT；没有把这些外部作品打包分发。原件的数字阈值、认知容量归因和绝对化排版规则不作为行业标准或已验证研究结论沿用。
+
+写作方法可按需查 [Google 文档风格指南](https://developers.google.com/style)、[Microsoft 写作风格指南](https://learn.microsoft.com/en-us/style-guide/welcome/)、[Diátaxis](https://diataxis.fr/) 和 [Write the Docs 原则](https://www.writethedocs.org/guide/writing/docs-principles/)。本次核对了 [hyperref 官方手册](https://tug.ctan.org/macros/latex/contrib/hyperref/doc/hyperref-doc.html) 的加载顺序与 tabularx 链接脚注限制；删除了“换顺序即可修复”的无证据断言。编译选项以当前安装的 latexmk 帮助为依据；[latexmk](https://ctan.org/pkg/latexmk)、[minted](https://ctan.org/pkg/minted) 等外部工具及其手册保留各自许可，本仓库不重新许可它们。
+
+本批静态审阅与合成样例不能证明所有字体、引擎、编辑器或飞书版本兼容；真实外部服务结果以对应任务的实际授权与回执为准。

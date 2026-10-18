@@ -15,7 +15,7 @@
 
 ## 当前收录
 
-首批从开发、设计、审查与交付相关技能开始：
+按当前任务选择需要的技能：
 
 | 你要做什么 | 使用技能 |
 | --- | --- |
@@ -24,6 +24,9 @@
 | 开发、自证、审查与验收 | [开发协作](skills/yushen-pr-cycle/SKILL.md) |
 | 安装、授权与日常操作 | [产品交互](skills/yushen-product-ux/SKILL.md) |
 | 真实下载、安装与产物验收 | [产物验收](skills/yushen-release-acceptance/SKILL.md) |
+| 精修文档并保留关键信息 | [文档精修](skills/doc-refine/SKILL.md) |
+| 明确需要 LaTeX 的 PDF 排版 | [LaTeX 排版](skills/latex-pdf/SKILL.md) |
+| 创建本地可编辑流程图 | [可编辑图](skills/editable-flowchart/SKILL.md) |
 
 ## 快速开始
 

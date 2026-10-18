@@ -1,0 +1,45 @@
+{
+  "skill_name": "latex-pdf",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请用 LaTeX 把这段内容排版成一个专业的中文学术报告 PDF：标题是「2025 年 AI 技术发展报告」，包含摘要、三个章节（大语言模型、多模态 AI、AI Agent），每章有一个数据表格和一个公式。需要中文排版，页眉显示章节名，页脚显示页码。",
+      "expected_output": "生成的 .tex 文件使用 ctexart + xelatex 编译，包含 booktabs 表格、amsmath 公式、fancyhdr 页眉页脚。PDF 排版专业，无 overfull hbox warning。",
+      "expectations": [
+        "使用 xelatex 引擎（而非 pdflatex）",
+        "加载 ctex 包并指定正确的 fontset",
+        "表格使用 booktabs（\\toprule/\\midrule/\\bottomrule），无竖线",
+        "hyperref 与相关包的顺序符合实际文档类和版本约束",
+        "geometry 设置合理的页边距",
+        "fancyhdr 配置了页眉和页脚",
+        "latexmk 编译成功，零 error"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Use LaTeX to create a professional one-page resume PDF for me. Name: John Smith. Role: Senior Software Engineer. Include sections for Experience, Education, and Skills. Use a clean, modern layout with good typography. No colors except for subtle section headings.",
+      "expected_output": "生成的 .tex 文件用 pdflatex 或 xelatex 编译，单页简历。排版克制，使用 fontspec/xcolor，合理的 geometry 边距。无装饰性元素。",
+      "expectations": [
+        "单页输出（不超过 1 页）",
+        "使用 geometry 设置紧凑但合理的边距",
+        "字体选择专业（衬线或无衬线均可，但需一致）",
+        "section 标题格式一致",
+        "无竖线表格或装饰性边框",
+        "编译成功；影响交付的警告已修复，其余说明原因，并检查实际 PDF 页面"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "请用 LaTeX 排版一份技术文档 PDF，内容是「Python 异步编程指南」。需要包含代码示例（带语法高亮）、一个跨页的 API 参考表格、以及几个提示框（注意/警告）。中文内容，英文代码。",
+      "expected_output": "生成的 .tex 文件使用 xelatex + ctex，listings 或 minted 做代码高亮，longtable 做跨页表格，tcolorbox 做提示框。所有元素排版协调。",
+      "expectations": [
+        "代码高亮使用 listings（或确认 minted 版本、执行边界及授权后用 minted）",
+        "跨页表格使用 longtable 或 xltabular",
+        "提示框使用 tcolorbox 且仅用于注意/警告",
+        "中文排版正确（ctex + xelatex）",
+        "代码和中文混排间距自然",
+        "编译成功，表格正确跨页"
+      ]
+    }
+  ]
+}
