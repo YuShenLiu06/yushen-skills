@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品体验设计"
+  short_description: "把安装、授权和恢复做成普通用户能看懂、能完成的可靠流程"
+  default_prompt: "使用 $yushen-product-ux 审查这个安装与授权流程，给出可实施的改进。"
